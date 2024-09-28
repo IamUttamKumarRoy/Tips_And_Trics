@@ -1,0 +1,15 @@
+ What Is the JAVA_HOME Environment Variable?
+
+The JAVA_HOME environment variable is a system variable that points to the location where the Java Development Kit (JDK) is installed on your computer. The JDK is a software environment that allows Java-based applications to run on your computer without an issue.
+
+Windows automatically sets the JAVA_HOME environment variable during the Java installation process. However, you will need to manually set it up if you have installed Java on your computer after the initial installation.
+
+You can set up the JAVA_HOME environment variable using the below syntax:
+
+JAVA_HOME=/path/to/jdk/installation
+ 
+
+For instance, if Java is installed in the directory C:\Program Files\Java\jdk-20, then you would set the JAVA_HOME environment variable as follows:
+
+JAVA_HOME= C:\Program Files\Java\jdk-20
+ 
